@@ -5,7 +5,6 @@
  * Public prototypes for crypto implementation
  ******************************************************************************/
 
-/*Meshtastic can switch between two modes depending on key length*/
 bool mt_crypto_mode(mt_prot_lib::crypt_method mode);
 
 bool mt_crypto_set_IV(mt_prot_lib::IV &iv);

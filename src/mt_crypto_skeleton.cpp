@@ -11,6 +11,7 @@
 
 #if 0 /* Dont let the compiler compile the skeleton. */
 
+/*Meshtastic can switch between two modes depending on key length*/
 bool mt_crypto_mode(mt_prot_lib::crypt_method mode)
 {
   return true;
